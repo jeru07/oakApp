@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class MVCcontroller {
 	@GetMapping("/index")
 	public String index() {
-		return "index.jsp";
+		return "index";
 	}
-
-	
 }
